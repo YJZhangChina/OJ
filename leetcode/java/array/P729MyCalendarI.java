@@ -1,4 +1,4 @@
-package java.array;
+package leetcode.java.array;
 
 import java.util.TreeMap;
 
