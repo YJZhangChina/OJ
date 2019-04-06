@@ -1,4 +1,4 @@
-package leetcode.java.bfs;
+package leetcode.java.dfs;
 
 import leecode.java.util.TreeNodeNext;
 
