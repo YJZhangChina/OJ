@@ -2,10 +2,6 @@ package leetcode.java.bit;
 
 public class P461 {
 
-	public static void main(String[] args) {
-		new P461().hammingDistance(1, 4);
-	}
-
 	public int hammingDistance(int x, int y) {
 		int ans = 0;
 		int bit = 1;
