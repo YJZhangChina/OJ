@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import leetcode.java.Util;
-
 public class P77 {
 
 	public List<List<Integer>> combine(int n, int k) {
