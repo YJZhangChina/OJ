@@ -2,18 +2,6 @@ package leetcode.java.dp;
 
 public class P931 {
 
-	public static void main(String[] args) {
-		// 12
-		System.out.println(new P931().minFallingPathSum(new int[][] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } }));
-		// -98
-		System.out.println(
-				new P931().minFallingPathSum(new int[][] { { -51, -35, 74 }, { -62, 14, -53 }, { 94, 61, -10 } }));
-		// -66
-		System.out.println(
-				new P931().minFallingPathSum(new int[][] { { -80, -13, 22 }, { 83, 94, -5 }, { 73, -48, 61 } }));
-
-	}
-
 	public int minFallingPathSum(int[][] A) {
 		int length = A.length;
 		if (length == 0) {
