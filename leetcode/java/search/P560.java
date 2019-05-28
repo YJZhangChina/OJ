@@ -1,4 +1,4 @@
-package leetcode.java.dp;
+package leetcode.java.search;
 
 public class P560 {
 
