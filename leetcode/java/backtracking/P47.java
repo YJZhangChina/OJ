@@ -1,7 +1,5 @@
 package leetcode.java.backtracking;
 
-import leetcode.java.util.Util;
-
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -24,7 +22,7 @@ public class P47 {
             ans.add(Arrays.asList(track));
         } else {
             boolean flag = false;
-            Integer previous = -1;
+            int previous = -1;
             for (int i = 0, j = nums.length; i < j; ++i) {
                 int value = nums[i];
                 if (!flag || previous != value) {
@@ -40,15 +38,11 @@ public class P47 {
         }
     }
 
-    public int[] next(int[] track, int index) {
-        int length = track.length, current = 0;
+    private int[] next(int[] track, int index) {
+        int length = track.length;
         int[] next = new int[length - 1];
-        for (int i = 0; i < index; ++i) {
-            next[i] = track[i];
-        }
-        for (int i = index + 1; i < length; ++i) {
-            next[i - 1] = track[i];
-        }
+        System.arraycopy(track, 0, next, 0, index);
+        System.arraycopy(track, index + 1, next, index, length - index - 1);
         return next;
     }
 
