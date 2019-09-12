@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import leecode.java.util.TreeNode;
+import leetcode.java.util.TreeNode;
 
 public class P515 {
 

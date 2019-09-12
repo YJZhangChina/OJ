@@ -1,6 +1,6 @@
 package leetcode.java.dfs;
 
-import leecode.java.util.TreeNodeNext;
+import leetcode.java.util.TreeNodeNext;
 
 public class P116 {
 

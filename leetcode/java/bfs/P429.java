@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import leecode.java.util.NArrayNode;
+import leetcode.java.util.NArrayNode;
 
 public class P429 {
 

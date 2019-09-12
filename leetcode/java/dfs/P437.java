@@ -1,6 +1,6 @@
 package leetcode.java.dfs;
 
-import leecode.java.util.TreeNode;
+import leetcode.java.util.TreeNode;
 
 public class P437 {
 

@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-import leecode.java.util.TreeNode;
+import leetcode.java.util.TreeNode;
 
 public class P145 {
 

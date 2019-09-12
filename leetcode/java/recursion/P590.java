@@ -3,7 +3,7 @@ package leetcode.java.recursion;
 import java.util.LinkedList;
 import java.util.List;
 
-import leecode.java.util.NArrayNode;
+import leetcode.java.util.NArrayNode;
 
 public class P590 {
 

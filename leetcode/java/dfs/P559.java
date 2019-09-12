@@ -1,6 +1,6 @@
 package leetcode.java.dfs;
 
-import leecode.java.util.NArrayNode;
+import leetcode.java.util.NArrayNode;
 
 public class P559 {
 
